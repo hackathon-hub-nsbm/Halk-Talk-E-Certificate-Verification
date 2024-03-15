@@ -1,6 +1,6 @@
 let certificateData = [];
 
-fetch("https://raw.githubusercontent.com/hackathon-hub-nsbm/Website/main/data.json")
+fetch("https://raw.githubusercontent.com/hackathon-hub-nsbm/Halk-Talk-E-Certificate-Verification/main/data.json") // ./data.json
   .then((response) => response.json())
   .then((data) => {
     certificateData = data;
