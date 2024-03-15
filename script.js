@@ -1,6 +1,6 @@
 let certificateData = [];
 
-fetch("/data.json")
+fetch("https://raw.githubusercontent.com/hackathon-hub-nsbm/Website/main/data.json")
   .then((response) => response.json())
   .then((data) => {
     certificateData = data;
