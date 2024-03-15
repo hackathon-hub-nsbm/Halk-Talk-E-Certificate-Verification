@@ -1,0 +1,45 @@
+body {
+  position: relative;
+  color: white;
+  background-color: #0d1018;
+  display: flex;
+  height: 100dvh;
+  justify-content: center;
+  align-items: center;
+  font-family: Oswald, sans-serif;
+}
+
+button,
+input {
+  font-size: 22px;
+  font-family: inherit;
+}
+
+body > div {
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.certForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  height: 100%;
+  padding: 5px 30px;
+  min-width: 500px;
+}
+button {
+  padding: 5px 30px;
+}
+
+h1 {
+  /* font-size: 22px; */
+  margin: 0;
+}
